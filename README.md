@@ -24,6 +24,8 @@ Technical requirements of the website included:
 - HTML
 - CSS
 - Git Version Control
+- Vite
+- React
 
 <a id="credits"></a>
 
