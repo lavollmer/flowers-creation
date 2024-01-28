@@ -1,40 +1,8 @@
-# Flowers-Creation
+# React + Vite
 
-## Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-- [Website Links](#websitelinks)
-- [Technical Requirements](#technicalrequirements)
-- [Credits](#credits)
-- [License](#license)
-
-  <a id="homepage"></a>
-
-## Website Links
-
-- Github Repo:https://github.com/lavollmer/flowers-creation
-
-  <a id="technicalrequirements"></a>
-
-## Technical Requirements
-
-Technical requirements of the website included:
-
-- HTML
-- CSS
-- Git Version Control
-- Vite
-- React
-
-<a id="credits"></a>
-
-## Credits
-
-This project was created by Laura Vollmer, a previous floral designer.
-
-<a id="license"></a>
-
-## License
-
-No license
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
