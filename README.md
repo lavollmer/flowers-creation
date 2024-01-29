@@ -6,6 +6,16 @@ This project is to create a website that aims to help those in the wedding plann
 
 ## Table of Contents
 
+## Technical Requirements
+
+This project required the use of:
+
+- JavaScript
+- ReactJS
+- Vite
+- Coolors
+- Chakra UI
+
 ## Credits
 
 ## Licenses
