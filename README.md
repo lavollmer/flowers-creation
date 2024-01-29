@@ -6,6 +6,12 @@ This project is to create a website that aims to help those in the wedding plann
 
 ## Table of Contents
 
+## Installation
+
+## Website Links
+
+## Webpage Screenshots
+
 ## Technical Requirements
 
 This project required the use of:
