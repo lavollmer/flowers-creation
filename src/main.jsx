@@ -1,6 +1,8 @@
 // 1. Import the extendTheme function
-import { extendTheme } from "@chakra-ui/react";
-import * as ReactDOM from "react-dom/client";
+import { extendTheme, ChakraProvider } from "@chakra-ui/react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import React from "react";
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
