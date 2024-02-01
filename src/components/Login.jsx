@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Login = () => {
+  //creating a variable where state is set to "", setUsername is the function and username holds the current value of state
+  const [username, setUsername] = useState("");
+  //creating a variable where state is set to "", setPassword is the function and password holds the current value of state
+  const [password, setPassword] = useState("");
+
+  //handleUsername function -> value is value of the input field, e.target is the target of the event, setUsername is the function to change the state, arrow function (concise way of writing in JavaScript) based on the parameter of the event
+  const handleUsername = (e) => {
+    setUsername(e.target.value);
+  };
+
+  //handlePassword function
+  const handlePassword = (e) => {
+    setPassword(e.target.value);
+  };
+
   return (
     <div>
       <div class="bg-gray-100 flex justify-center items-center h-screen">
@@ -20,9 +35,14 @@ const Login = () => {
                 Username
               </label>
               <input
+                // specifies input should handle text values
                 type="text"
                 id="username"
-                name="username"
+                placeholder="username"
+                //binds the value of the username input to the username variable - value in field will be controlled by value of username variable
+                value={username}
+                //function to be called when field changes for username - handles change and updaates username
+                onChange={handleUsername}
                 class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
                 autocomplete="off"
               ></input>
@@ -35,7 +55,9 @@ const Login = () => {
               <input
                 type="password"
                 id="password"
-                name="password"
+                placeholder="password"
+                value={password}
+                onChange={setPassword}
                 class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
                 autocomplete="off"
               ></input>

@@ -25,6 +25,7 @@ This project used:
 
 Header component styling inspired by Tailblocks: https://tailblocks.cc/
 Hero component styling inspired by Tailblocks: https://tailblocks.cc/
+Login page: https://tailwindcomponents.com/component/login-page-with-tailwind-css
 
 ## License
 
