@@ -5,12 +5,15 @@ import Main from "./components/Main";
 import Header from "./components/Header";
 //import Footer component page
 import Footer from "./components/Footer";
+//import Hero component page
+import Hero from "./components/Hero";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
+      <Hero />
       <Main />
       <Footer />
     </>
