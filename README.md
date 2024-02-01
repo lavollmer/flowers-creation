@@ -24,6 +24,7 @@ This project used:
 ## Credits
 
 Header component styling inspired by Tailblocks: https://tailblocks.cc/
+Hero component styling inspired by Tailblocks: https://tailblocks.cc/
 
 ## License
 

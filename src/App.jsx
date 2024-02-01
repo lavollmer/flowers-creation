@@ -7,12 +7,15 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 //import Hero component page
 import Hero from "./components/Hero";
+//import Login page
+import Login from "./components/Login";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
+      <Login />
       <Hero />
       <Main />
       <Footer />
