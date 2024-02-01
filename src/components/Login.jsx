@@ -16,6 +16,10 @@ const Login = () => {
     setPassword(e.target.value);
   };
 
+  const handleLogin = (e) => {
+    console.log("Login clicked");
+  };
+
   return (
     <div>
       <div class="bg-gray-100 flex justify-center items-center h-screen">
@@ -83,6 +87,7 @@ const Login = () => {
 
             <button
               type="submit"
+              onClick={handleLogin}
               class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
             >
               Login
