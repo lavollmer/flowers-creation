@@ -16,8 +16,8 @@ function App() {
     <>
       <div>
         <Header />
-        <Login />
         <Hero />
+        <Login />
         <Main />
         <Footer />
       </div>
