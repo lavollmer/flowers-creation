@@ -26,6 +26,8 @@ This project used:
 Header component styling inspired by Tailblocks: https://tailblocks.cc/
 Hero component styling inspired by Tailblocks: https://tailblocks.cc/
 Login page: https://tailwindcomponents.com/component/login-page-with-tailwind-css
+Unsplash Image: https://unsplash.com/photos/person-holding-bouquet-of-flowers-isLn_yy6rYs
+Coolors: https://coolors.co/6b531d-627914-132233-243853-97594a-dbdbd5-f4f4f4-eaecea-3f520d-e5e6df
 
 ## License
 
