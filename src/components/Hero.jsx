@@ -17,10 +17,10 @@ const Hero = () => {
               you!
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-[#97594A] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <button class="inline-flex text-white bg-[#97594A] border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg">
                 Products
               </button>
-              <button class="ml-4 inline-flex text-white bg-[#243853] border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+              <button class="ml-4 inline-flex text-white bg-[#243853] border-0 py-2 px-6 focus:outline-none hover:bg-black rounded text-lg">
                 Design
               </button>
             </div>
@@ -28,7 +28,7 @@ const Hero = () => {
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               class="object-cover object-center rounded"
-              alt="hero"
+              alt="flower arrangement hero image"
               src={ShowcaseFlowers}
             />
           </div>
