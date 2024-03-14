@@ -23,7 +23,7 @@ const Login = () => {
 
   return (
     <div>
-      <div class="bg-gray-100 flex justify-center items-center h-screen">
+      <div class="bg-[#DBDBD5] flex justify-center items-center h-screen">
         <div class="w-1/2 h-screen hidden lg:block">
           <img
             src={FlowerBouquet}
@@ -33,7 +33,7 @@ const Login = () => {
         </div>
 
         <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
-          <h1 class="text-2xl font-semibold mb-4">Login</h1>
+          <h1 class="text-2xl font-semibold mb-4 text-[#243853]">Login</h1>
           <form action="#" method="POST">
             <div class="mb-4">
               <label for="username" class="block text-gray-600">
@@ -80,7 +80,7 @@ const Login = () => {
               </label>
             </div>
 
-            <div class="mb-6 text-blue-500">
+            <div class="mb-6 text-[#243853]">
               <a href="#" class="hover:underline">
                 Forgot Password?
               </a>
@@ -89,13 +89,13 @@ const Login = () => {
             <button
               type="submit"
               onClick={handleLogin}
-              class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
+              class="bg-[#243853] hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
             >
               Login
             </button>
           </form>
 
-          <div class="mt-6 text-blue-500 text-center">
+          <div class="mt-6 text-[#243853] text-center">
             <a href="#" class="hover:underline">
               Sign up Here
             </a>

@@ -14,11 +14,13 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
-      <Login />
-      <Hero />
-      <Main />
-      <Footer />
+      <div>
+        <Header />
+        <Login />
+        <Hero />
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }
