@@ -23,20 +23,20 @@ const Login = () => {
 
   return (
     <div>
-      <div class="bg-[#DBDBD5] flex justify-center items-center h-screen">
-        <div class="w-1/2 h-screen hidden lg:block">
+      <div className="bg-[#DBDBD5] flex justify-center items-center h-screen">
+        <div className="w-1/2 h-screen hidden lg:block">
           <img
             src={FlowerBouquet}
             alt="Flower Bouquet Image"
-            class="object-cover w-full h-full"
+            className="object-cover w-full h-full"
           />
         </div>
 
-        <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
-          <h1 class="text-2xl font-semibold mb-4 text-[#243853]">Login</h1>
+        <div className="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
+          <h1 className="text-2xl font-semibold mb-4 text-[#243853]">Login</h1>
           <form action="#" method="POST">
-            <div class="mb-4">
-              <label for="username" class="block text-gray-600">
+            <div className="mb-4">
+              <label for="username" className="block text-gray-600">
                 Username
               </label>
               <input
@@ -48,13 +48,13 @@ const Login = () => {
                 value={username}
                 //function to be called when field changes for username - handles change and updaates username
                 onChange={handleUsername}
-                class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
                 autocomplete="off"
               ></input>
             </div>
 
-            <div class="mb-4">
-              <label for="password" class="block text-gray-600">
+            <div className="mb-4">
+              <label for="password" className="block text-gray-600">
                 Password
               </label>
               <input
@@ -63,25 +63,25 @@ const Login = () => {
                 placeholder="password"
                 value={password}
                 onChange={setPassword}
-                class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                className="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
                 autocomplete="off"
               ></input>
             </div>
 
-            <div class="mb-4 flex items-center">
+            <div className="mb-4 flex items-center">
               <input
                 type="checkbox"
                 id="remember"
                 name="remember"
-                class="text-blue-500"
+                className="text-blue-500"
               ></input>
-              <label for="remember" class="text-gray-600 ml-2">
+              <label for="remember" className="text-gray-600 ml-2">
                 Remember Me
               </label>
             </div>
 
-            <div class="mb-6 text-[#243853]">
-              <a href="#" class="hover:underline">
+            <div className="mb-6 text-[#243853]">
+              <a href="#" className="hover:underline">
                 Forgot Password?
               </a>
             </div>
@@ -89,14 +89,14 @@ const Login = () => {
             <button
               type="submit"
               onClick={handleLogin}
-              class="bg-[#243853] hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
+              className="bg-[#243853] hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
             >
               Login
             </button>
           </form>
 
-          <div class="mt-6 text-[#243853] text-center">
-            <a href="#" class="hover:underline">
+          <div className="mt-6 text-[#243853] text-center">
+            <a href="#" className="hover:underline">
               Sign up Here
             </a>
           </div>
