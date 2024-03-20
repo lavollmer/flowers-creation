@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 
-const instagram = () => {
+const Instagram = () => {
   return (
     <div>
       <a
@@ -14,4 +14,4 @@ const instagram = () => {
   );
 };
 
-export default instagram;
+export default Instagram;

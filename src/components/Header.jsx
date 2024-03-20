@@ -1,6 +1,6 @@
 import React from "react";
 import { GiFlowerPot } from "react-icons/gi";
-import Instagram from "./reusable/instagram";
+import Instagram from "./reusable/Instagram";
 
 const Header = () => {
   // Header component styling taken from Tailblocks
