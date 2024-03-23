@@ -21,6 +21,7 @@ This project used:
 - TailwindCSS
 - MongoDB
 - Someting something
+- We added more things too!
 
 ## Credits
 
