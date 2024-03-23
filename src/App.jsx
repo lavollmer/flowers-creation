@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 //import Login page
 import Login from "./components/Login";
+//import Design file
+import Design from "./components/DesignBouquet";
 import "./App.css";
 
 function App() {
@@ -15,8 +17,9 @@ function App() {
     <>
       <div>
         <Header />
-        <Hero />
-        <Login />
+        <Design />
+        {/* <Hero />
+        <Login /> */}
         <Footer />
       </div>
     </>

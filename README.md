@@ -20,6 +20,7 @@ This project used:
 - JavaScript
 - TailwindCSS
 - MongoDB
+- Someting something
 
 ## Credits
 
