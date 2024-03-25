@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The flower project is to create a website where users are able to log in, have a specific portfolio section and make bouquets based on interest for their event. This website promotes DIY flower arrangement and accessibiliity to custom flowers for all socioeconomic backgrounds.
+The flower project is to create a website where users are able to log in, have a specific portfolio section and make bouquets based on interest for their event. This website promotes DIY flower arrangement and accessibiliity to custom flowers for all socioeconomic backgrounds. There was a lot of debugging involved in this code.
 
 ## Table of Contents
 
