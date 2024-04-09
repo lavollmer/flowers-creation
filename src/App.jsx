@@ -11,6 +11,8 @@ import Login from "./components/Login";
 //import Design file
 import Design from "./components/DesignBouquet";
 import CarouselImages from "./components/reusable/Carousel";
+import Works from "./components/Works";
+import ChooseUs from "./components/ChooseUs";
 import "./App.css";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Design />
         <Hero />
         <Login />
+        <Works />
+        <ChooseUs />
         <Footer />
       </div>
     </>
