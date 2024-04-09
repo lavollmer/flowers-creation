@@ -19,11 +19,11 @@ const Header = () => {
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <ul>
             <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Products</Link></li>
-            <a className="mr-5 hover:text-gray-900">Design</a>
-            <a className="mr-5 hover:text-gray-900">About Us</a>
-            <a className="mr-5 hover:text-gray-900">FAQ</a>
-            <a className="mr-5 hover:text-gray-900">Contact Us</a>
-            <a className="mr-5 hover:text-gray-900">Blog</a>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Design</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">About Us</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Contact Us</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Blog</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Knowledge</Link></li>
             </ul>
           </nav>
           <Instagram />
