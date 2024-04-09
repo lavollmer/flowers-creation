@@ -16,14 +16,15 @@ const Header = () => {
             />
             <span className="ml-3 text-xl">Blooming Creations</span>
           </a>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <nav className="md:ml-auto md:mr-auto flex flex-row flex-wrap items-center text-base justify-center">
             <ul>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Home">Home</Link></li>
             <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Products</Link></li>
-            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Design</Link></li>
-            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">About Us</Link></li>
-            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Contact Us</Link></li>
-            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Blog</Link></li>
-            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Knowledge</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Design">Design</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/AboutUs">About Us</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/ContactUs">Contact Us</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Blog">Blog</Link></li>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Knowledge">Knowledge</Link></li>
             </ul>
           </nav>
           <Instagram />
