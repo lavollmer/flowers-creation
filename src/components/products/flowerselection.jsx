@@ -5,7 +5,7 @@ import FlowerVariations from './flowerselection/flowervariations'
 const flowerselection = () => {
   return (
     <div>
-        <Header />
+
         <FlowerVariations />
     </div>
   )

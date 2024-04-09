@@ -15,6 +15,7 @@ import CarouselImages from "./components/reusable/Carousel";
 import Works from "./components/Works";
 import ChooseUs from "./components/ChooseUs";
 import "./App.css";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<CarouselImages />} />
+        <Route path="/products" element={<Products />} /> 
         <Route path="/design" element={<Design />} />
         <Route path="/hero" element={<Hero />} />
         <Route path="/login" element={<Login />} />
