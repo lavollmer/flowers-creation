@@ -1,9 +1,11 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Flowers from "../../../src/assets/flowerbouquet.jpg";
+import ShowcaseFlowers from "../../../src/assets/showcaseflowers.jpg";
 
-const Carousel = () => {
-  const images = ["flouwerbouquet.jpg", "showcaseflowers.jpg"];
+const CarouselImages = () => {
+  const images = [Flowers, ShowcaseFlowers];
   return (
     <>
       <Carousel>
@@ -17,4 +19,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default CarouselImages;

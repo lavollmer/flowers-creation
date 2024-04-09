@@ -10,6 +10,7 @@ import Hero from "./components/Hero";
 import Login from "./components/Login";
 //import Design file
 import Design from "./components/DesignBouquet";
+import CarouselImages from "./components/reusable/Carousel";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <>
       <div>
         <Header />
+        <CarouselImages />
         <Design />
         <Hero />
         <Login />
