@@ -18,22 +18,18 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <div>
-            <Header />
-            <CarouselImages />
-            <Design />
-            <Hero />
-            <Login />
-            <Works />
-            <ChooseUs />
-            <Footer />
-          </div>
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<CarouselImages />} />
+        <Route path="/design" element={<Design />} />
+        <Route path="/hero" element={<Hero />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/chooseus" element={<ChooseUs />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
