@@ -1,6 +1,7 @@
 import React from "react";
 import { GiFlowerPot } from "react-icons/gi";
 import Instagram from "./reusable/Instagram";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   // Header component styling taken from Tailblocks
@@ -16,12 +17,14 @@ const Header = () => {
             <span className="ml-3 text-xl">Blooming Creations</span>
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">Products</a>
+            <ul>
+            <li className="mr-5 hover:text-gray-900"><Link to ="/Products">Products</Link></li>
             <a className="mr-5 hover:text-gray-900">Design</a>
             <a className="mr-5 hover:text-gray-900">About Us</a>
             <a className="mr-5 hover:text-gray-900">FAQ</a>
             <a className="mr-5 hover:text-gray-900">Contact Us</a>
             <a className="mr-5 hover:text-gray-900">Blog</a>
+            </ul>
           </nav>
           <Instagram />
         </div>

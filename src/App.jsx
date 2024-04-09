@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import Header component page
 import Header from "./components/Header";
 //import Footer component page
@@ -18,16 +19,20 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>
-        <Header />
-        <CarouselImages />
-        <Design />
-        <Hero />
-        <Login />
-        <Works />
-        <ChooseUs />
-        <Footer />
-      </div>
+      <Router>
+        <Routes>
+          <div>
+            <Header />
+            <CarouselImages />
+            <Design />
+            <Hero />
+            <Login />
+            <Works />
+            <ChooseUs />
+            <Footer />
+          </div>
+        </Routes>
+      </Router>
     </>
   );
 }
