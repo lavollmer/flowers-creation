@@ -18,8 +18,8 @@ function App() {
       <div>
         <Header />
         <Design />
-        {/* <Hero />
-        <Login /> */}
+        <Hero />
+        <Login />
         <Footer />
       </div>
     </>

@@ -11,6 +11,10 @@ The flower project is to create a website where users are able to log in, have a
 Install Vite: https://vitejs.dev/guide/
 Install TailwindCSS with Vite: https://tailwindcss.com/docs/guides/vite
 
+## Discussion
+
+Throughout this project there were numerous pieces that needed to be updated or fixed. The first of which was my Apple Mac computer updated and thus made a bug which I had to debug before coding any further.
+
 ## Technical Stack
 
 This project used:
@@ -20,8 +24,6 @@ This project used:
 - JavaScript
 - TailwindCSS
 - MongoDB
-- Someting something
-- We added more things too!
 
 ## Credits
 
